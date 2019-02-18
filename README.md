@@ -45,16 +45,3 @@ containers is quick and reliable.
   the official maintained image (which happens to be debian based)
   with php version 7 and apache installed on it". When you rebuild your
   images, you get any security updates along with it for free.
-* Developers are typically responsible for creating and maintaining 
-  the Dockerfile and any dependencies their code makes use of (for
-  example, if they want to use ImageMagick to convert images to
-  thumbnails, they will have to put it in the Dockerfile, otherwise
-  their code would break).
-* Applications should avoid writing to the filesystem (when uploading
-  files, for instance) and prefer to use object storage, such as
-  Amazon S3 instead. The reason for this is that it is a maintenance
-  headache. It is definitely possible. It is usually more annoying
-  than alternatives.
-* In development, the developer would likely also use a docker container
-  for MySQL / similar persistent data stores. In production, their Docker
-  container would likely connect to a different (managed) database.
