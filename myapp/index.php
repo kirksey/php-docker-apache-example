@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Example Title</title>
+        <title>Onsite Demo</title>
     </head>
     <body>
         <p>
