@@ -13,7 +13,7 @@ docker run -d -p 8080:80 php-docker-apache-example
 ```
 
 And you can see the result here:
-![screenshot](https://raw.githubusercontent.com/fuhrysteve/php-docker-apache-example/master/example.jpg)
+![screenshot](https://github.com/kirksey/php-docker-apache-example/blob/master/example.jpg)
 
 ```bash
 # to spin up additional containers on different ports, you might
